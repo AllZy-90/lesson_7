@@ -1,0 +1,303 @@
+@import "nullstyle.css";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;700&family=Redressed&family=Russo+One&display=swap");
+
+body {
+  font-family: "Russo One", sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+}
+.wrapper {
+  overflow: hidden;
+  min-height: 100%;
+  background-image: linear-gradient(
+    180deg,
+    rgba(254, 254, 254, 0) 0%,
+    rgba(165, 221, 181, 0.5200674019607843) 11%,
+    rgba(99, 169, 121, 0.4892550770308123) 29%,
+    rgba(48, 133, 77, 0.4948573179271709) 47%,
+    rgba(19, 123, 57, 0.47524947478991597) 66%,
+    rgba(0, 150, 75, 0.4808517156862745) 87%
+  );
+}
+.container {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 20px 20px 0 20px;
+  background-image: linear-gradient(
+    180deg,
+    rgba(254, 254, 254, 0) 0%,
+    rgba(165, 221, 181, 0.5200674019607843) 11%,
+    rgba(99, 169, 121, 0.4892550770308123) 29%,
+    rgba(48, 133, 77, 0.4948573179271709) 47%,
+    rgba(19, 123, 57, 0.47524947478991597) 66%,
+    rgba(0, 150, 75, 0.4808517156862745) 87%
+  );
+}
+[class*="desc"] {
+  color: #496844;
+}
+/* ===================HEADER======================== */
+.header {
+  font-family: "Montserrat Alternates", sans-serif;
+  text-align: center;
+  background: url("../img/background-with-metallic.jpeg") 0 0 / cover no-repeat;
+  border: 3px solid #dfb56e;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 0px 0px 40px 0px;
+}
+.header__title {
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  margin: 0px 0px 20px 0px;
+  text-shadow: 2px 2px 2px #000000;
+  color: #698f61;
+}
+.header__subtitle {
+  font-size: 40px;
+  text-transform: capitalize;
+  text-shadow: 1px 2px 2px #000000;
+  color: #496844;
+}
+/* ====================MAIN======================= */
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+/* ====================background-color======================= */
+.block__background-color {
+  margin: 0px 0px 40px 0px;
+}
+.background-color__title {
+  margin: 0px 0px 20px 0px;
+}
+.background-color {
+  padding: 20px;
+  background-color: #496844;
+  color: #fff;
+  border: 3px solid #dfb56e;
+}
+.color {
+  margin: 0px 0px 20px 0px;
+}
+.rgba {
+  background-color: rgba(46, 87, 40, 0.623);
+}
+/* ====================background-img======================= */
+.block__background-img {
+  margin: 0px 0px 40px 0px;
+}
+.background-img__title {
+  margin: 0px 0px 20px 0px;
+}
+.background-img {
+  border: 3px solid #dfb56e;
+}
+.img {
+  min-height: 452px;
+  color: #fff;
+  background-image: url("../img/winter-2022.png");
+  margin: 0px 0px 20px 0px;
+}
+.linear-gradient {
+  min-height: 300px;
+  background: linear-gradient(
+    180deg,
+    rgba(252, 255, 14, 1) 0%,
+    rgba(0, 119, 198, 1) 50%,
+    rgba(0, 235, 116, 1) 100%
+  );
+  margin: 0px 0px 20px 0px;
+}
+.radial-gradient {
+  min-height: 300px;
+  background: radial-gradient(
+    circle,
+    rgba(252, 255, 14, 1) 0%,
+    rgba(0, 119, 198, 1) 40%,
+    rgba(0, 235, 116, 1) 100%
+  );
+}
+/* ===================background-repeat======================== */
+.block__background-repeat {
+  margin: 0px 0px 40px 0px;
+}
+.background-repeat__title {
+  margin: 0px 0px 20px 0px;
+}
+.background-repeat {
+  min-height: 300px;
+  border: 3px solid #dfb56e;
+}
+.no-repeat {
+  background: url("../img/winter-2022.png") no-repeat;
+  margin: 0px 0px 20px 0px;
+}
+.repeat-x {
+  background: url("../img/winter-2022.png") repeat-x;
+  margin: 0px 0px 20px 0px;
+}
+.repeat-y {
+  min-height: 400px;
+  background: url("../img/winter-2022.png") repeat-y;
+  margin: 0px 0px 20px 0px;
+}
+.space {
+  min-height: 460px;
+  background: url("../img/winter-2022.png") space;
+  margin: 0px 0px 20px 0px;
+  color: #fff;
+}
+.round {
+  background: url("../img/winter-2022.png") round;
+  color: #fff;
+}
+/* ====================background-position======================= */
+.block__background-position {
+  margin: 0px 0px 40px 0px;
+}
+.background-position__title {
+  margin: 0px 0px 20px 0px;
+}
+.background-position {
+  min-height: 300px;
+  border: 3px solid #dfb56e;
+}
+.default {
+  background: url("../img/winter-2022.png") 0 0 no-repeat;
+  margin: 0px 0px 20px 0px;
+}
+.centered {
+  background: url("../img/winter-2022.png") 50% no-repeat;
+  margin: 0px 0px 20px 0px;
+}
+.left {
+  background: url("../img/winter-2022.png") 0 50% no-repeat;
+  margin: 0px 0px 20px 0px;
+}
+.corner {
+  background: url("../img/winter-2022.png") 100% 100% no-repeat;
+  margin: 0px 0px 20px 0px;
+}
+.position {
+  background: url("../img/winter-2022.png") 230px 80px no-repeat;
+}
+/* =====================background-attachment====================== */
+.block__background-attachment {
+  margin: 0px 0px 40px 0px;
+}
+.background-attachment__title {
+  margin: 0px 0px 20px 0px;
+}
+.background-attachment {
+  min-height: 300px;
+  border: 3px solid #dfb56e;
+}
+.attachment__default {
+  background: url("../img/background-abstraction.jpeg") 0 0 no-repeat scroll;
+  margin: 0px 0px 20px 0px;
+  color: #fff;
+}
+.fixed {
+  background: url("../img/background-abstraction.jpeg") 0 0 no-repeat fixed;
+  margin: 0px 0px 20px 0px;
+  color: #fff;
+}
+.local {
+  font-family: "Redressed", cursive;
+  font-size: 20px;
+  max-height: 300px;
+  overflow: auto;
+  background: url("../img/background-abstraction.jpeg") 0 0 no-repeat local;
+  color: #dfb56e;
+}
+/* ====================background-size======================= */
+.block__background-size {
+  margin: 0px 0px 40px 0px;
+}
+.background-size__title {
+  margin: 0px 0px 20px 0px;
+}
+.background-size {
+  min-height: 300px;
+  border: 3px solid #dfb56e;
+}
+.size__default {
+  background: url("../img/background-abstraction.jpeg") 0 0 / auto auto
+    no-repeat;
+  margin: 0px 0px 20px 0px;
+}
+.width {
+  background: url("../img/background-abstraction.jpeg") 0 0/100% auto no-repeat;
+  margin: 0px 0px 20px 0px;
+}
+.height {
+  background: url("../img/background-abstraction.jpeg") 0 0 / auto 100%
+    no-repeat;
+  margin: 0px 0px 20px 0px;
+}
+.stretch {
+  background: url("../img/background-abstraction.jpeg") 0 0/100% 100% no-repeat;
+  margin: 0px 0px 20px 0px;
+}
+.contain {
+  background: url("../img/background-abstraction.jpeg") 0 0 / contain no-repeat;
+  margin: 0px 0px 20px 0px;
+}
+.cover {
+  background: url("../img/background-abstraction.jpeg") 0 0 / cover no-repeat;
+  margin: 0px 0px 20px 0px;
+}
+.proportions {
+  background: url("../img/background-abstraction.jpeg") 0 0/342px 200px
+    no-repeat;
+}
+/* ====================block__background-multiple======================= */
+.block__background-multiple {
+  margin: 0px 0px 40px 0px;
+}
+.background-multiple__title {
+  margin: 0px 0px 20px 0px;
+}
+.background-multiple {
+  min-height: 300px;
+  border: 3px solid #dfb56e;
+}
+.pic-color {
+  background: #698f61 url("../img/winter-2022.png") no-repeat;
+  margin: 0px 0px 20px 0px;
+}
+.two-pic {
+  background: url("../img/winter-2022.png") center no-repeat,
+    url("../img/background-abstraction.jpeg") 50% / cover no-repeat;
+  margin: 0px 0px 20px 0px;
+}
+.three-pic {
+  background: url("../img/winter-2022.png") left no-repeat,
+    url("../img/images.png") right/150px no-repeat,
+    url("../img/background-abstraction.jpeg") 50% / cover no-repeat;
+  margin: 0px 0px 20px 0px;
+}
+.four-pictures {
+  background: url("../img/winter-2022.png") left no-repeat,
+    url("../img/logo-img.png") 100%/150px no-repeat,
+    url("../img/images.png") 350px/100px no-repeat,
+    url("../img/background-abstraction.jpeg") 50% / cover no-repeat;
+}
+/* =========================================== */
+.author {
+  max-width: 500px;
+  font-family: "Montserrat Alternates", sans-serif;
+  text-align: center;
+  background: url("../img/background-with-metallic.jpeg") 0 0 / cover no-repeat;
+  border: 3px solid #dfb56e;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 0 auto;
+  font-weight: 700;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px #000000;
+  color: #698f61;
+}
